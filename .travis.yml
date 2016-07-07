@@ -10,3 +10,9 @@ go:
 
 script:
 - go test -v ./...
+
+notifications:
+  email:
+    on_success: change
+    on_failure: always
+    on_start: false
