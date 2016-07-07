@@ -46,7 +46,6 @@ func TestLargeGroup(t *testing.T) {
 	})
 	for i := 0; i < 2048; i++ {
 		g.Go(func(a, b int) error {
-			a += b
 			return nil
 		}, i, 42)
 	}

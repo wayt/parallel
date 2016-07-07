@@ -17,7 +17,7 @@ var (
 )
 
 // Go run a goroutine
-// fun MUST be a function, if the last return paramter is an error, I'll be push to errs chan
+// fun MUST be a function, if the last return parameter is an error, I'll be push to errs chan
 // args are fun parameters, optional
 func (g *Group) Go(fun interface{}, args ...interface{}) {
 
