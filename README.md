@@ -10,7 +10,9 @@ It automatically check if the last parameter of your function is an error, and r
 
 Install Parallel using `go get`:
 
-    * Latest version: go get github.com/wayt/parallel
+    ```sh
+    $ go get github.com/wayt/parallel
+    ```
 
 ## Example
 
